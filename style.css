@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        background-color: aliceblue;
+    }
+
+    .navbar{
+        display: flex;
+        
+    }
+    
+    ul{
+        list-style: none;
+
+    }
+
+    .logo{
+        margin: 20px;
+
+    }
+
+    .items{
+        margin: 50px;
+        padding: 20px;
+        
+        
+        
+    }
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 40px;
+    
+        
+    }
+    li{
+        display: inline-block;
+        padding: 10px 20px;
+    }
+
+
+    .text-img{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        margin-bottom: 500px;
+    }
+
+    .relative{
+        position: relative;
+    }
+    .absolute{
+        position: absolute;
+        left: 450px;
+
+    }
+    .text{
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 600px;
+
+        
+    }
+    h1 span{
+        color: #965a33;
+    }
+
+    .title{
+        font-size: 80px;
+        margin-right: 450px;
+    }
+    .img-card{
+        margin: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+    .card1{
+        
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 592px;
+        height: 170px;
+        border-radius: 24px;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: #efe6e1;
+        display: inline-block;
+        margin: 10px;
+
+    }
+    .card1 span{
+        border: 1px solid black;
+        /* box-sizing: border-box; */
+        width: 54px;
+        height: 50px;
+        border-radius: 16px;
+        text-align: center;
+        background-color: white;
+        font-size: 40px;        
+        
+    }
+
+    .card2{
+        
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 592px;
+        height: 170px;
+        border-radius: 24px;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: #efe6e1;
+        display: inline-block;
+        margin: 10px;
+
+    }
+    .card2 span{
+        border: 1px solid black;
+        /* box-sizing: border-box; */
+        width: 54px;
+        height: 50px;
+        border-radius: 16px;
+        text-align: center;
+        background-color: white;
+        font-size: 40px;
+        
+    }
+
+    .card3{
+        
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 592px;
+        height: 170px;
+        border-radius: 24px;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: #efe6e1;
+        display: inline-block;
+        margin: 10px;
+
+    }
+    .card3 span{
+        border: 1px solid black;
+        /* box-sizing: border-box; */
+        width: 54px;
+        height: 50px;
+        border-radius: 16px;
+        text-align: center;
+        background-color: white;
+        font-size: 40px;
+        
+    }
+    .type{
+        font-size: 60px;
+        margin-top: 500px;
+        padding: 50px;
+    }
+
+    .type-of-cars{
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        background-color: aliceblue;
+        border-radius: 16px;
+        text-align: center;
+        margin: 20px;
+        /* box-sizing: border-box; */
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+    .car1{
+        
+        background-color: aliceblue;
+    }
+    .car2{
+        
+        background-color: aliceblue;
+    }
+    .car3{
+        
+        background-color: aliceblue;
+    }
+    .car4{
+        
+        background-color: aliceblue;
+    }
+    .car5{
+        
+        background-color: aliceblue;
+    }
+    .car6{
+        
+        background-color: aliceblue;
+    }
+    .car7{
+        
+        background-color: aliceblue;
+    }
+    .car8{
+        
+        background-color: aliceblue;
+    }
+    .car9{
+        
+        background-color: aliceblue;
+    }
+    .car10{
+        
+        background-color: aliceblue;
+    }
+    .car11{
+        
+        background-color: aliceblue;
+    }
+    .car12{
+        
+        background-color: aliceblue;
+    }
+
+    footer{
+        width: 100%;
+        height: 30vh;
+        background-color: #965a33;
+        border-radius: 16px;
+    }
+
+    
+
+    
+
+    
+
+
+}
